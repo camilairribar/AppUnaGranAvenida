@@ -14,7 +14,7 @@ public class CategoriesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_categories);
 
         categoryList = findViewById(R.id.categoryList);
-        String[] categories = {"Restaurantes", "Cafeterías", "Servicios Profesionales", "Oficios"};
+        String[] categories = {"Contacto Una Gran Avenida", "+56 9 26914140"};
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, categories);
         categoryList.setAdapter(adapter);
     }
