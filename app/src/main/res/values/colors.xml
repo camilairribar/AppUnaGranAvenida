@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="rosa">#EF9A9A</color>
+    <color name="rojo">#EF5350</color>
+    <color name="azul">#5C6BC0</color>
+    <color name="celeste">#42A5F5</color>
+    <color name="verde">#43A047</color>
+    <color name="rojo_pastel">#FDDF5856</color>
+    <color name="morado">#B3E5FC</color>
+    <color name="navy_blue">#003366</color>
+    <color name="amarillo">#FF9800</color>
+    <color name="verdee">#3FAE64</color>
+
+    <color name="background">#FFFFFF</color> <!-- Blanco -->
+    <color name="primary">#3F51B5</color> <!-- Azul -->
+    <color name="primaryDark">#303F9F</color> <!-- Azul oscuro -->
+    <color name="accent">#FF4081</color> <!-- Color de acento, opcional -->
+    <color name="AmarilloGranAvenida">#fcc40c </color>
+
+
+
+
+    <color name="fondo_general">#3498db</color> <!-- Color de fondo general -->
+    <color name="menu_background">#C5CAE9</color> <!-- Color de fondo del menú de navegación -->
+    <color name="colorAccent">#e74c3c</color> <!-- Color del botón de cerrar sesión -->
+
+
+</resources>

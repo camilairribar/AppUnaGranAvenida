@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/categorias"
+    android:gravity="center"
+    android:padding="16dp"
+    tools:context=".Contacto_uga">
+
+    <!-- Título centrado -->
+    <TextView
+        android:id="@+id/establecimiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contacto de UGA"
+        android:textSize="32sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <!-- Contenedor para los íconos -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="16dp">
+
+        <!-- Botón de llamada -->
+        <ImageButton
+            android:id="@+id/botonLlamar"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/iconollamada"
+            android:contentDescription="Llamar" />
+
+        <!-- Espaciado entre íconos -->
+        <View
+            android:layout_width="24dp"
+            android:layout_height="0dp" />
+
+        <!-- Botón de correo -->
+        <ImageButton
+            android:id="@+id/botonEmail"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:padding="8dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/email"
+            android:contentDescription="Enviar correo" />
+    </LinearLayout>
+
+</LinearLayout>
